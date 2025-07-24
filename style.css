@@ -16,6 +16,94 @@ a{
   --text-dark-color: #000000;
   --text-light-color: rgba(0, 0, 0, 0.5);
   --text-white-color: #ffffff;
+  --font-family-inter: "Inter", sans-serif;
+  --second-family-noto: "Noto Serif", sans-serif;
   
 }
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+nav{
+    width: 100%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: bisque; */
+    padding-top: 30px;
+}
+.logo{
+    width: 135px;
+    height: 82px;
+    
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+nav li a{
+    font-family: var(--font-family-inter);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text-light-color);
+}
+nav .active a{
+    font-family: var(--font-family-inter);
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--text-dark-color);
+}
+nav .curt a i{
+    margin-right: 10px;
+}
+nav .curt a{
+    font-family: var(--font-family-inter);
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--text-dark-color);
+}
+.hero{
+    margin-top: 120px;
+}
+.hero .hero-content{
+    display: flex;
+    flex-wrap: wrap;
+    
 
+}
+.hero-text{
+    width: 50%;
+    margin-top: 62px;
+}
+.hero-text h1{
+    font-family: var(--second-family-noto);
+    font-weight: 700;
+    font-size: 65px;
+    color: var(--orange-color);
+}
+.hero-text h1 span{
+    font-family: var(--second-family-noto);
+    color: var(--text-dark-color);
+}
+.hero-text p{
+    font-family: var(--font-family-inter);
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--text-light-color);
+    margin-top: 13px;
+}
+.hero-img{
+    width: 50%;
+}
+.hero-img img{
+    width: 100%;
+    height: 355px;
+}
