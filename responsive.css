@@ -1,0 +1,33 @@
+@media (max-width: 1140px) {
+  .container {
+    padding: 0px 16px;
+  }
+  .hero-text h1{
+        font-size: 24px;
+    }
+    .hero-text p{
+        font-size: 14px;
+    }
+}
+@media (max-width: 848px){
+    .hero .hero-content{
+        flex-direction: column-reverse;
+}
+    .hero-img{
+        width: 100vw; 
+        margin: 0px -16px;
+       
+    }
+    .hero-text{
+        width: 100%;
+        margin-top: 28px;
+    }
+    .hero-text h1{
+        font-size: 24px;
+        padding-right: 100px;
+    }
+    .hero-text p{
+        font-size: 14px;
+    }
+    
+}
