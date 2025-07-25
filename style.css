@@ -107,3 +107,134 @@ nav .curt a{
     width: 100%;
     height: 355px;
 }
+
+.plants{
+    margin-top: 120px;
+}
+.plants h1{
+    font-family: var(--second-family-noto);
+    font-size: 50px;
+    color: var(--text-dark-color);
+    text-align: center;
+}
+.plants h1 span{
+    color: var(--orange-color);
+}
+.plants .sub-text{
+    font-family: var(--font-family-inter);
+    font-size: 22px;
+    color: var(--text-light-color);
+    text-align: center;
+    padding: 0px 126px;
+    margin-top: 16px;
+}
+.plant{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+    margin-top: 49px;
+}
+.plant .item{
+    width: 100%;
+    text-align: center;
+    background-color: var(--text-white-color); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); 
+    transition: box-shadow 0.3s ease; 
+    
+    
+}
+.plant .item:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+.plant .item img{
+    width: 100%;
+    max-height: 322px;
+    
+}
+.plant .item .title{
+    width: 100%;
+    font-family: var(--font-family-inter);
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--text-dark-color);
+    margin-top: 30px;
+    
+}
+.plant .item .price{
+    width: 100%;
+    font-family: var(--font-family-inter);
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--text-dark-color);
+    margin-top: 20px;
+}
+.plant .item button{
+    width: 100%;
+    margin-top: 30px;
+    
+    /* height: 50px; */
+    border: none;
+    padding: 16px 0px;
+    font-family: var(--font-family-inter);
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-white-color);
+    background-color: var(--orange-color);
+    cursor: pointer;
+}
+.plant .item button:hover{
+    font-size: 18px;
+    background-color: var(--text-dark-color);
+}
+
+
+
+.flower-store{
+    margin-top: 120px;
+    position: relative;
+
+}
+.store-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 60px;
+}
+.store-text{
+    width: 100%;
+    margin-top: 40px;
+}
+.store-text h2{
+    font-family: var(--second-family-noto);
+    font-size: 50px;
+    font-weight: bold;
+}
+.store-text .sub-text ul{
+    margin-left: 25px;
+}
+.store-text .sub-text ul li{
+    list-style-type: disc;
+    margin-top: 20px;
+    font-family: var(--font-family-inter);
+    font-size: 22px;
+    color: var(--text-light-color);
+    padding-right: 30px;
+    
+}
+.store-img{
+    width: 100%;
+    height: 600x;
+}
+.badge{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    top: -127px;
+    left: 347px;
+    
+    
+}
+.badge img{
+    width: 100%;
+    height: 100%;
+}

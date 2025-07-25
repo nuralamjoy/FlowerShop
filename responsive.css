@@ -31,3 +31,16 @@
     }
     
 }
+
+@media (max-width: 920px) {
+  .plant {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Max width 580px: 2 columns */
+@media (max-width: 580px) {
+  .plant {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
