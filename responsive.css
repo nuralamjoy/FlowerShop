@@ -58,7 +58,7 @@
   }
 
   .hero-text h1 {
-    font-size: 25px;
+    font-size: 24px;
     padding-right: 100px;
   }
 
@@ -127,6 +127,11 @@
     display: none;
   }
 
+  .logo {
+    width: 63px;
+    height: 38px;
+  }
+
   .hero .hero-content {
     flex-direction: column-reverse;
   }
@@ -160,6 +165,15 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .plant .item .title {
+    font-size: 16px;
+  }
+
+  .plant .item .price {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
   .flower-store {
     margin-top: 65px;
 
@@ -183,6 +197,7 @@
 
   .store-text {
     margin-top: 20px;
+    font-size: 24px;
   }
 
   .deals {
